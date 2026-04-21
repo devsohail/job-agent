@@ -71,6 +71,3 @@ npm run dev
 ## 🤝 Contributing
 Contributions are welcome! If you have ideas for new search sources or agent capabilities, feel free to open a PR.
 
----
-
-Created with ❤️ by the Job Application Agent Team.
