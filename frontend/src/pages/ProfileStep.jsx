@@ -1,3 +1,9 @@
+import { useState, useRef } from 'react'
+import { Upload } from 'lucide-react'
+import { useStore } from '../store'
+import { uploadCVFile } from '../services/api'
+import toast from 'react-hot-toast'
+
 const s = {
   card: { background: 'var(--bg2)', border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', padding: 24, marginBottom: 16 },
   label: { fontSize: 11, fontWeight: 600, color: 'var(--text3)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 10, display: 'block' },
