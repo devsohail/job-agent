@@ -1,5 +1,6 @@
+import io
+import re
 from fastapi import APIRouter, HTTPException, UploadFile, File
-from models import CVUpload
 
 router = APIRouter()
 
